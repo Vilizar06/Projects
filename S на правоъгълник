@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Въведи страна а");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Въведи страна б");
+            double b = double.Parse(Console.ReadLine());
+            Console.WriteLine("S е равна на:");
+            double area = (a * b);
+
+            Console.WriteLine(area);
+	}
+}
