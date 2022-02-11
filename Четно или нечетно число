@@ -1,0 +1,11 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int number = 23;
+		bool even = number % 2 == 0 ? true : false;
+		Console.WriteLine("{0} is even? {1}", number, even);
+	}
+}
