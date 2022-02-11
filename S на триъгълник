@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Въведи страна а");
+		double a=double.Parse(Console.ReadLine());
+		Console.WriteLine("Въведи височина h");
+		double h=double.Parse(Console.ReadLine());
+		Console.WriteLine("S на триъгълника е:");
+		double S=((a*h)/2);
+		
+		Console.WriteLine(S);
+		
+	}
+}
