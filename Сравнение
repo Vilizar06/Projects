@@ -1,0 +1,10 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		var result = (5 <= 6); // Po-malko ili ravno
+		Console.WriteLine(result);
+	}
+}
